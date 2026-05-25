@@ -1,34 +1,178 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.6">
-  <style type="text/css">
-    body {background-color: #0d121f}
-    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #f6f9fb; -webkit-text-stroke: #f6f9fb}
-    span.s1 {font-kerning: none}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service</title>
+  <style>
+:root {
+  --bg: #07111f;
+  --panel: rgba(255,255,255,0.075);
+  --panel-border: rgba(255,255,255,0.12);
+  --text: #f8fafc;
+  --muted: #a7b3c5;
+  --blue: #3b82f6;
+  --cyan: #22d3ee;
+  --accent: linear-gradient(135deg, #60a5fa, #22d3ee);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(59,130,246,.30), transparent 32rem),
+    radial-gradient(circle at top right, rgba(34,211,238,.18), transparent 28rem),
+    var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+}
+.wrapper {
+  width: min(940px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 56px 0;
+}
+.hero {
+  padding: 44px;
+  border: 1px solid var(--panel-border);
+  background: linear-gradient(145deg, rgba(255,255,255,.11), rgba(255,255,255,.045));
+  border-radius: 32px;
+  box-shadow: 0 24px 80px rgba(0,0,0,.35);
+  margin-bottom: 28px;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #bfdbfe;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: var(--accent);
+  display: inline-grid;
+  place-items: center;
+  color: #07111f;
+  font-weight: 900;
+}
+h1 {
+  font-size: clamp(38px, 7vw, 68px);
+  line-height: 1.03;
+  margin: 24px 0 16px;
+  letter-spacing: -0.055em;
+}
+.lead {
+  color: var(--muted);
+  font-size: 20px;
+  max-width: 720px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.card {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 24px;
+  padding: 26px;
+  backdrop-filter: blur(18px);
+}
+.card.full { grid-column: 1 / -1; }
+h2 {
+  margin: 0 0 10px;
+  font-size: 23px;
+  letter-spacing: -.02em;
+}
+p, li {
+  color: var(--muted);
+  font-size: 16px;
+}
+ul { padding-left: 21px; }
+a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+.badge {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(59,130,246,.14);
+  border: 1px solid rgba(96,165,250,.28);
+  color: #bfdbfe;
+  font-size: 13px;
+  font-weight: 700;
+}
+.footer {
+  color: #7f8da3;
+  text-align: center;
+  padding: 34px 0 10px;
+  font-size: 14px;
+}
+@media (max-width: 720px) {
+  .wrapper { width: min(100% - 28px, 940px); padding: 28px 0; }
+  .hero { padding: 28px; border-radius: 26px; }
+  .grid { grid-template-columns: 1fr; }
+  .card { padding: 22px; }
+  .lead { font-size: 18px; }
+}
+</style>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Terms of Service</b></span></h1>
-<p class="p2"><span class="s1">Last Updated: May 2026</span></p>
-<p class="p2"><span class="s1">By using TradePilot, you agree to the following Terms of Service.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Educational Purpose</b></span></h2>
-<p class="p2"><span class="s1">TradePilot is designed for educational, behavioral reflection, and journaling purposes only.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>No Financial Advice</b></span></h2>
-<p class="p2"><span class="s1">TradePilot does not provide financial advice, investment recommendations, portfolio management services, or guarantees of trading outcomes.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>User Responsibility</b></span></h2>
-<p class="p2"><span class="s1">Users are solely responsible for their investment and trading decisions. You should conduct your own research before making financial decisions.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>AI-Generated Insights</b></span></h2>
-<p class="p2"><span class="s1">AI-generated reflections and insights may contain inaccuracies and should not be relied upon as financial advice.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Subscriptions</b></span></h2>
-<p class="p2"><span class="s1">Certain features may require a paid subscription. Subscriptions renew automatically unless canceled through Apple subscriptions settings.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Limitation of Liability</b></span></h2>
-<p class="p2"><span class="s1">TradePilot and its creators are not liable for financial losses, trading decisions, or investment outcomes resulting from use of the app.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Contact</b></span></h2>
-<p class="p2"><span class="s1">Questions about these Terms may be sent to: wonderbibi28@gmail.com</span></p>
+  <main class="wrapper">
+    <section class="hero">
+      <div class="brand"><span class="logo">TP</span> TradePilot</div>
+      <h1>Terms of Service</h1>
+      <p class="lead">The terms for using TradePilot’s AI-powered journaling, reflection, and portfolio awareness tools.</p>
+      <span class="badge">AI trading psychology & reflection journal</span>
+    </section>
+
+    <section class="grid">
+      
+<div class="card full">
+  <h2>Last updated</h2>
+  <p>May 2026</p>
+  <p>By using TradePilot, you agree to these Terms of Service.</p>
+</div>
+<div class="card">
+  <h2>Educational purpose</h2>
+  <p>TradePilot is designed for educational, behavioral reflection, and journaling purposes only.</p>
+</div>
+<div class="card">
+  <h2>No financial advice</h2>
+  <p>TradePilot does not provide financial advice, investment recommendations, portfolio management services, trading signals, or guarantees of outcomes.</p>
+</div>
+<div class="card">
+  <h2>User responsibility</h2>
+  <p>You are solely responsible for your trading and investment decisions. Always conduct your own research before making financial decisions.</p>
+</div>
+<div class="card">
+  <h2>AI-generated insights</h2>
+  <p>AI-generated reflections may be inaccurate or incomplete. They are intended for journaling and self-reflection only and should not be relied upon as financial advice.</p>
+</div>
+<div class="card">
+  <h2>Subscriptions</h2>
+  <p>Certain features may require a paid subscription. Subscriptions renew automatically unless canceled through Apple subscription settings.</p>
+</div>
+<div class="card">
+  <h2>Limitation of liability</h2>
+  <p>TradePilot and its creators are not liable for financial losses, trading decisions, investment outcomes, or reliance on AI-generated content.</p>
+</div>
+<div class="card">
+  <h2>Contact</h2>
+  <p>Questions about these Terms may be sent to <a href="mailto:wonderbibi28@gmail.com">wonderbibi28@gmail.com</a>.</p>
+</div>
+
+    </section>
+
+    <div class="footer">
+      © 2026 TradePilot. For education, journaling, and reflection only.
+    </div>
+  </main>
 </body>
 </html>

@@ -1,45 +1,188 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.6">
-  <style type="text/css">
-    body {background-color: #0d121f}
-    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #f6f9fb; -webkit-text-stroke: #f6f9fb}
-    li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #f6f9fb; -webkit-text-stroke: #f6f9fb}
-    span.s1 {font-kerning: none}
-    span.s2 {-webkit-text-stroke: 0px #000000}
-    ul.ul1 {list-style-type: disc}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy</title>
+  <style>
+:root {
+  --bg: #07111f;
+  --panel: rgba(255,255,255,0.075);
+  --panel-border: rgba(255,255,255,0.12);
+  --text: #f8fafc;
+  --muted: #a7b3c5;
+  --blue: #3b82f6;
+  --cyan: #22d3ee;
+  --accent: linear-gradient(135deg, #60a5fa, #22d3ee);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(59,130,246,.30), transparent 32rem),
+    radial-gradient(circle at top right, rgba(34,211,238,.18), transparent 28rem),
+    var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+}
+.wrapper {
+  width: min(940px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 56px 0;
+}
+.hero {
+  padding: 44px;
+  border: 1px solid var(--panel-border);
+  background: linear-gradient(145deg, rgba(255,255,255,.11), rgba(255,255,255,.045));
+  border-radius: 32px;
+  box-shadow: 0 24px 80px rgba(0,0,0,.35);
+  margin-bottom: 28px;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #bfdbfe;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: var(--accent);
+  display: inline-grid;
+  place-items: center;
+  color: #07111f;
+  font-weight: 900;
+}
+h1 {
+  font-size: clamp(38px, 7vw, 68px);
+  line-height: 1.03;
+  margin: 24px 0 16px;
+  letter-spacing: -0.055em;
+}
+.lead {
+  color: var(--muted);
+  font-size: 20px;
+  max-width: 720px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.card {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 24px;
+  padding: 26px;
+  backdrop-filter: blur(18px);
+}
+.card.full { grid-column: 1 / -1; }
+h2 {
+  margin: 0 0 10px;
+  font-size: 23px;
+  letter-spacing: -.02em;
+}
+p, li {
+  color: var(--muted);
+  font-size: 16px;
+}
+ul { padding-left: 21px; }
+a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+.badge {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(59,130,246,.14);
+  border: 1px solid rgba(96,165,250,.28);
+  color: #bfdbfe;
+  font-size: 13px;
+  font-weight: 700;
+}
+.footer {
+  color: #7f8da3;
+  text-align: center;
+  padding: 34px 0 10px;
+  font-size: 14px;
+}
+@media (max-width: 720px) {
+  .wrapper { width: min(100% - 28px, 940px); padding: 28px 0; }
+  .hero { padding: 28px; border-radius: 26px; }
+  .grid { grid-template-columns: 1fr; }
+  .card { padding: 22px; }
+  .lead { font-size: 18px; }
+}
+</style>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Privacy Policy</b></span></h1>
-<p class="p2"><span class="s1">Last Updated: May 2026</span></p>
-<p class="p2"><span class="s1">TradePilot respects your privacy and is committed to protecting your information. This Privacy Policy explains how information is collected and used.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Information We Collect</b></span></h2>
-<ul class="ul1">
-  <li class="li4"><span class="s2"></span><span class="s1">Trade journal entries</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">Portfolio holdings</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">Reflection notes and AI analysis requests</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">App usage analytics and crash diagnostics</span></li>
-</ul>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>How Information Is Used</b></span></h2>
-<ul class="ul1">
-  <li class="li4"><span class="s2"></span><span class="s1">Provide AI-powered trading reflections</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">Improve app functionality and performance</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">Generate behavioral insights and portfolio summaries</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">Maintain account and subscription features</span></li>
-</ul>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>AI Features</b></span></h2>
-<p class="p2"><span class="s1">Some features may securely process submitted trade or portfolio information through third-party AI providers to generate reflections and insights.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Data Security</b></span></h2>
-<p class="p2"><span class="s1">We take reasonable measures to protect your information. However, no method of electronic storage or transmission is completely secure.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Financial Disclaimer</b></span></h2>
-<p class="p2"><span class="s1">TradePilot is intended for educational and self-reflection purposes only. It does not provide financial, investment, legal, or tax advice.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #4f91f8; -webkit-text-stroke: #4f91f8"><span class="s1"><b>Contact</b></span></h2>
-<p class="p2"><span class="s1">For privacy-related questions, contact: wonderbibi28@gmail.com</span></p>
+  <main class="wrapper">
+    <section class="hero">
+      <div class="brand"><span class="logo">TP</span> TradePilot</div>
+      <h1>Privacy Policy</h1>
+      <p class="lead">How TradePilot handles trade journals, portfolio data, screenshots, and AI reflection requests.</p>
+      <span class="badge">AI trading psychology & reflection journal</span>
+    </section>
+
+    <section class="grid">
+      
+<div class="card full">
+  <h2>Last updated</h2>
+  <p>May 2026</p>
+  <p>TradePilot respects your privacy. This Privacy Policy explains how information may be collected, used, and protected when you use the app.</p>
+</div>
+<div class="card">
+  <h2>Information we collect</h2>
+  <ul>
+    <li>Trade journal entries and reflection notes</li>
+    <li>Portfolio holdings and imported screenshot data</li>
+    <li>AI analysis requests and generated reflections</li>
+    <li>App diagnostics, usage events, and crash information</li>
+  </ul>
+</div>
+<div class="card">
+  <h2>How we use information</h2>
+  <ul>
+    <li>Provide journaling and portfolio features</li>
+    <li>Generate AI-powered reflections and behavioral insights</li>
+    <li>Improve app performance, reliability, and usability</li>
+    <li>Support subscriptions, account features, and customer support</li>
+  </ul>
+</div>
+<div class="card">
+  <h2>AI features</h2>
+  <p>Some TradePilot features may securely process submitted trade, screenshot, or portfolio information through third-party AI services to generate reflections and insights.</p>
+</div>
+<div class="card">
+  <h2>Data security</h2>
+  <p>We use reasonable safeguards to protect your information. However, no electronic storage or transmission method can be guaranteed to be completely secure.</p>
+</div>
+<div class="card">
+  <h2>Financial disclaimer</h2>
+  <p>TradePilot is for educational and self-reflection purposes only. It does not provide financial, investment, legal, tax, or trading advice.</p>
+</div>
+<div class="card">
+  <h2>Contact</h2>
+  <p>For privacy questions, email <a href="mailto:wonderbibi28@gmail.com">wonderbibi28@gmail.com</a>.</p>
+</div>
+<div class="card">
+  <h2>Related pages</h2>
+  <p><a href="terms.html">Terms of Service</a> · <a href="support.html">Support</a></p>
+</div>
+
+    </section>
+
+    <div class="footer">
+      © 2026 TradePilot. For education, journaling, and reflection only.
+    </div>
+  </main>
 </body>
 </html>
